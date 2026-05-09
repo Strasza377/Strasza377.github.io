@@ -24,4 +24,10 @@ Aside from the Addressables and assets work, I also led a team of 3 other engine
 Unfortunately this game is no longer available on the app stores as the team was laid off and the project was sunset, but below you can find some links to gameplay videos and trailers for the game.
 
 Gameplay footage: https://www.youtube.com/watch?v=RDkacY7LllQ
+
 Launch Trailer: https://www.youtube.com/watch?v=IDrlckQxy0E
+
+### Cookie Jam and Cookie Jam Blast
+
+Cookie Jam and Cookie Jam Blast are both match-3 puzzle games available on iOS and Android mobile devices, with Blast being a pseudo sequel. Both games started as Flash/ActionScript3.0 games with their own code bases, but a large portion of the work I contributed to these projects was when we were porting the games over to Unity and creating our own internal puzzle game engine for both games to share.
+
