@@ -9,11 +9,12 @@ I am ideally looking for a small to medium sized game team to join and contribut
 ### Mythwalker
 
 #### Links:
-Unfortunately this game is no longer available on the app stores as the team was laid off and the project was sunset, but below you can find some links to gameplay videos and trailers for the game.
 
 Gameplay footage: https://www.youtube.com/watch?v=RDkacY7LllQ
 
 Launch Trailer: https://www.youtube.com/watch?v=IDrlckQxy0E
+
+Unfortunately this game is no longer available on the app stores as the team was laid off and the project was sunset, but below you can find some links to gameplay videos and trailers for the game.
 
 #### Description and Contributions
 
@@ -34,11 +35,15 @@ Aside from the Addressables and assets work, I also led a team of 3 other engine
 
 #### Links
 
-Cookie Jam App Store links: https://play.google.com/store/apps/details?id=air.com.sgn.cookiejam.gp&hl=en_US
+Cookie Jam App Store links: 
+
+https://play.google.com/store/apps/details?id=air.com.sgn.cookiejam.gp&hl=en_US
 
 https://apps.apple.com/us/app/cookie-jam-match-3-games/id727296976
 
-Cookie Jam Blast App Store Links: https://play.google.com/store/apps/details?id=air.com.sgn.cookiejamblast.gp&hl=en_US
+Cookie Jam Blast App Store Links: 
+
+https://play.google.com/store/apps/details?id=air.com.sgn.cookiejamblast.gp&hl=en_US
 
 https://apps.apple.com/us/app/cookie-jam-blast-match-3-game/id1034920425
 
