@@ -41,7 +41,7 @@ Cookie Jam App Store links:
 
 <a href="https://apps.apple.com/us/app/cookie-jam-match-3-games/id727296976">Apple App Store</a>
 
-Cookie Jam Blast App Store Links: 
+Cookie Jam Blast App Store links: 
 
 <a href="https://play.google.com/store/apps/details?id=air.com.sgn.cookiejamblast.gp">Google Play Store</a>
 
@@ -58,7 +58,11 @@ Video Links:
 Cookie Jam and Cookie Jam Blast are both match-3 puzzle games available on iOS and Android mobile devices, with Blast being a pseudo sequel. Both games started as Flash/ActionScript3.0 games with their own code bases, but a large portion of the work I contributed to these projects was when we were porting the games over to Unity and creating our own internal puzzle game engine for both games to share. I built a few large systems to support both games during the porting and provided live-ops support both during and after the porting effort was completed.
 
 One of the systems I built was what we internally called a "powers" system which had the purpose of being able to define special board interactions from that could be used in both games and be fired from multiple locations. The intention was for this system to support the basic puzzle board boosters that both games use, but also the pet and airship systems seen in the videos linked above. This ultimately resulted in a system where a designer could build a new power out of a scriptable object with multiple, modular pieces that would define the various aspects of the power such as how it charges, what the cooldown is, what effect it has on the board, and the various visual aspects. These definitions were then parsed when the game starts up to build out the objects in game that would integrate into the puzzle game's list of rules and mechanics. 
-This system fully support the 3 systems already defined in the flash versions of the game, but also provided an easier way forward to modify and A/B test them, create new powers within these defined systems, and also build whole new systems for special board interactions. It also allowed for the design team to more easily prototype and test changes without engineering interactions as the base set of scriptable objects provided to them allowed for a large variety of options.
 
-I also led the development of an updated events system for both games to utilize.
+This system fully supported the 3 systems already defined in the flash versions of the game, but also provided an easier way forward to modify and A/B test them, create new interactions within these defined systems, and also build whole new systems for special board interactions. It also allowed for the design team to more easily prototype and test changes without engineering interactions as the base set of scriptable objects provided to them allowed for a large variety of options.
+
+I also led the development of an updated events system for both games to utilize. The goal here was to combine the standard game event system with the cross-promotional events systems as there was a lot of overlap in functionality and therefore duplicated code. I was able to combine the two systems to share the same underlying structure, but allow for modularity within how various aspects of the event progress are defined. For example, some events had an overall progress that was tracked and displayed as the player interacted with it, while other events would just provide tokens to interact with its mechanic. This option was able to be defined in the data and allowed the code to determine which objects to piece together at runtime when setting up the event.
+
+This change led to a more unified and simplified codebase for our events systems, resulting in fewer bugs, faster creation of new event types, and an overall easier to understand process.
+
 
