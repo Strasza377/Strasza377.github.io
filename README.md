@@ -10,7 +10,7 @@ I am ideally looking for a small to medium sized game team to join and contribut
 
 #### Links:
 
-Gameplay footage: https://www.youtube.com/watch?v=RDkacY7LllQ
+<a href="https://www.youtube.com/watch?v=RDkacY7LllQ">Gameplay footage</a>
 
 Launch Trailer: https://www.youtube.com/watch?v=IDrlckQxy0E
 
