@@ -18,8 +18,10 @@ Unfortunately this game is no longer available on the app stores as the team was
 
 #### Description and Contributions
 
-Mythwalker was a mobile, geo-location RPG, think Pokemon GO meets a fantasy RPG. The game featured action combat, customizable characters, resource gathering minigames, and multiplayer.
+Mythwalker was a mobile, geo-location RPG, think Pokemon GO meets a fantasy RPG. The game featured action combat, customizable characters, resource gathering minigames, and multiplayer. I took lead on the Unity Addressables/Bundles on this project, as well as did some gameplay, memory optimization, and app-life cycle work.
 
+<details>
+<summary>Click to read more...</summary>
 One of my major focuses on this project was to manage the assets and Unity Addressables integration. I created a code service in our project to control the loading, unloading, and downloading of all assets within the project. This unified and simplified the way the project interacted with this system and allowed for more overall consistency in the project, as well as reducing the number of loading issues. 
 
 In addition to this, I re-organized the assets in the project and setup the bundle and Addressable groups to follow this organization to allow for better groupings of assets. This helped with the memory optimization work I did later because the connections and dependencies between various assets were both better defined and easier to control, ultimately leading to multiple fixes to memory issues on lower end mobile devices.
@@ -29,7 +31,7 @@ To top it all off on the Addressables front, I worked closely with the art and d
 My efforts on the Addressables system for Mythwalker ultimately led to resolving the majority of issues the project was facing with loading assets and greatly simplified the pipeline for getting new assets into the game and functioning properly.
 
 Aside from the Addressables and assets work, I also led a team of 3 other engineers, a designer, and an artist to rebuild the game's minigame system. I came up with an updated design for the code system and coordinated with the other engineers on the implementation details. I built out the framework and general flow, while the other engineers synced up with me to hook in improvements to various gameplay elements. I would stay in sync with the designer to ensure the feature was satisfying their requirements for both gameplay feel and for the control over the rewards and difficulty they needed. Throughout the process I acted as the primary point of contact for the production team to communicate with them about progress, blockers, and anything else related to the development.
-
+</details>
 
 ### Cookie Jam and Cookie Jam Blast
 
@@ -58,7 +60,7 @@ Video Links:
 Cookie Jam and Cookie Jam Blast are both match-3 puzzle games available on iOS and Android mobile devices, with Blast being a pseudo sequel. Both games started as Flash/ActionScript3.0 games with their own code bases, but a large portion of the work I contributed to these projects was when we were porting the games over to Unity and creating our own internal puzzle game engine for both games to share. I built a few large systems to support both games during the porting and provided live-ops support both during and after the porting effort was completed.
 
 <details>
-  <summary>Click to read more</summary>
+  <summary>Click to read more...</summary>
 One of the systems I built was what we internally called a "powers" system which had the purpose of being able to define special board interactions from that could be used in both games and be fired from multiple locations. The intention was for this system to support the basic puzzle board boosters that both games use, but also the pet and airship systems seen in the videos linked above. This ultimately resulted in a system where a designer could build a new power out of a scriptable object with multiple, modular pieces that would define the various aspects of the power such as how it charges, what the cooldown is, what effect it has on the board, and the various visual aspects. These definitions were then parsed when the game starts up to build out the objects in game that would integrate into the puzzle game's list of rules and mechanics. 
 
 This system fully supported the 3 systems already defined in the flash versions of the game, but also provided an easier way forward to modify and A/B test them, create new interactions within these defined systems, and also build whole new systems for special board interactions. It also allowed for the design team to more easily prototype and test changes without engineering interactions as the base set of scriptable objects provided to them allowed for a large variety of options.
