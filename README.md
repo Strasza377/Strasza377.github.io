@@ -12,9 +12,9 @@ I am ideally looking for a small to medium sized game team to join and contribut
 
 <a href="https://www.youtube.com/watch?v=RDkacY7LllQ">Gameplay footage</a>
 
-Launch Trailer: https://www.youtube.com/watch?v=IDrlckQxy0E
+<a href="https://www.youtube.com/watch?v=IDrlckQxy0E">Launch Trailer</a>
 
-Unfortunately this game is no longer available on the app stores as the team was laid off and the project was sunset, but below you can find some links to gameplay videos and trailers for the game.
+Unfortunately this game is no longer available on the app stores as the team was laid off and the project was sunset.
 
 #### Description and Contributions
 
@@ -37,19 +37,21 @@ Aside from the Addressables and assets work, I also led a team of 3 other engine
 
 Cookie Jam App Store links: 
 
-https://play.google.com/store/apps/details?id=air.com.sgn.cookiejam.gp&hl=en_US
+<a href="https://play.google.com/store/apps/details?id=air.com.sgn.cookiejam.gp">Google Play Store</a>
 
-https://apps.apple.com/us/app/cookie-jam-match-3-games/id727296976
+<a href="https://apps.apple.com/us/app/cookie-jam-match-3-games/id727296976">Apple App Store</a>
 
 Cookie Jam Blast App Store Links: 
 
-https://play.google.com/store/apps/details?id=air.com.sgn.cookiejamblast.gp&hl=en_US
+<a href="https://play.google.com/store/apps/details?id=air.com.sgn.cookiejamblast.gp">Google Play Store</a>
 
-https://apps.apple.com/us/app/cookie-jam-blast-match-3-game/id1034920425
+<a href="https://apps.apple.com/us/app/cookie-jam-blast-match-3-game/id1034920425">Apple App Store</a>
 
-Cookie Jam Pets Feature Video: https://www.youtube.com/watch?v=SAF8OP3FIek
+Video Links:
 
-Cookie Jam Blast Airship Power Demonstration Video: https://www.youtube.com/watch?v=EHU8LUrCOnQ
+<a href="https://www.youtube.com/watch?v=SAF8OP3FIek">Cookie Jam Pets Feature</a>
+
+<a href="https://www.youtube.com/watch?v=EHU8LUrCOnQ">Cookie Jam Blast Airship Power Demonstration</a>
 
 #### Description and Contributions
 
