@@ -108,5 +108,14 @@ Disney's Enchanted Tales was a narrative-driven builder game that told the stori
 
 <details>
 <summary>Click to read more...</summary>
-
+I built out the majority of the game's UI while working closely with a UI artist. We coordinated on the setup of the prefabs to make sure they felt good to interact with as a player and that they were optimized to minimize the number of draw calls needed.
+<br>
+<br>
+I added character mechanics for them to interact both with other characters and the various buildings present in the world. This involved updating the C# code in Unity as well as updating the server endpoints in our Java backend.
+<br>
+<br>
+Additionally, since this project existed before a lot of the modern Unity support for features such as in-app purchases and ads, I took point on integrating native plugins for handling these features for the game. This involved writing native app code (Objective-C and Java at the time) to perform the in-app purchases or interact with the ad service plugin and then creating a C# layer to interact with this native code.
 </details>
+
+### Ghost's of Mistwood
+
