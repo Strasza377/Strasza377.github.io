@@ -18,7 +18,7 @@ Unfortunately this game is no longer available on the app stores as the team was
 
 #### Description and Contributions
 
-Mythwalker was a mobile, geo-location RPG, think Pokemon GO meets a fantasy RPG. The game featured action combat, customizable characters, resource gathering minigames, and multiplayer. I took lead on the Unity Addressables/Bundles on this project, as well as did some gameplay, memory optimization, and app-life cycle work.
+Mythwalker was a mobile, geo-location RPG built with Unity. The game featured action combat, customizable characters, resource gathering minigames, and multiplayer. I took lead on the Unity Addressables/Bundles on this project, as well as did some gameplay, memory optimization, and app-life cycle work.
 
 <details>
 <summary>Click to read more...</summary>
@@ -61,7 +61,7 @@ Video Links:
 
 #### Description and Contributions
 
-Cookie Jam and Cookie Jam Blast are both match-3 puzzle games available on iOS and Android mobile devices, with Blast being a pseudo sequel. Both games started as Flash/ActionScript3.0 games with their own code bases, but a large portion of the work I contributed to these projects was when we were porting the games over to Unity and creating our own internal puzzle game engine for both games to share. I built a few large systems to support both games during the porting and provided live-ops support both during and after the porting effort was completed.
+Cookie Jam and Cookie Jam Blast are both match-3 puzzle games available on iOS and Android mobile devices, with Blast being a pseudo sequel. Both games started as Flash/ActionScript3.0 games with their own code bases, but a large portion of the work I contributed to these projects was when we were porting the games over to Unity + C# and creating our own internal puzzle game engine for both games to share. I built a few large systems to support both games during the porting and provided live-ops support both during and after the porting effort was completed.
 
 <details>
 <summary>Click to read more...</summary>
@@ -81,7 +81,7 @@ This change led to a more unified and simplified codebase for our events systems
 
 #### Description and Contributions
 
-This was a home decor design game where the player would build out spaces in homes and earn currency based on how well they were rated by the community. Early versions of this game internally included a match-3 puzzle game using 3D pieces and animations that was built using the same puzzle engine used for Cookie Jam and Cookie Jam Blast. I was in charge of prototyping and building out the 3D support for our puzzle engine, working closely with multiple tech artists to build out some really bombastic effects.
+This was a home decor design game built with Unity for mobile where the player would build out spaces in homes and earn currency based on how well they were rated by the community. Early versions of this game internally included a match-3 puzzle game using 3D pieces and animations that was built using the same puzzle engine used for Cookie Jam and Cookie Jam Blast. I was in charge of prototyping and building out the 3D support for our puzzle engine, working closely with multiple tech artists to build out some really bombastic effects.
 
 <details>
 <summary>Click to read more...</summary>
@@ -92,4 +92,21 @@ I created a new set of rules for the engine that would allow for displaying 3D m
 <br>
 <br>
 Another major addition I made was to the level system. In Cookie Jam and Cookie Jam Blast, levels were always displayed to the player on an island with a set number of maps. The player would need to complete a level and move on to the next map, with each map being pre-defined by designers. I created another mode that instead served levels to the player using a data defined factory. This meant that all the player had to do was press a "Play Level" button and the code and data underneath could figure out a new level to serve to the player. This allowed design to dynamically update which levels the player would play at any given time. The player would always start with a set number of tutorial levels to teach the game, but after that this new system would compare player data to rules defined by data to determine where it should get its next level from. There was a set of default levels the game can pull from with the ability to dynamically modify values of the level (e.g. number of moves, objectives, starting boosters, etc.), but if there was an active event with special levels or if a new type of level was released, these levels would take precedence to ensure the player was seeing new content as it was released.
+</details>
+
+### Disney's Enchanted Tales
+
+#### Links
+
+<a href="https://www.youtube.com/watch?v=XLLF2K6XPu4">Gameplay Walkthrough</a>
+
+This game was unfortunately sunset and is no longer available on the Google or Apple App Stores.
+
+### Description and Contributions
+
+Disney's Enchanted Tales was a narrative-driven builder game that told the stories of various Disney properties. This was my first time working with Unity and therefore my first released Unity game. I was early into my career during this project and did my best to get a wide variety of experiences with the game development process. I worked on anything from gameplay, UI, and native plugins and worked on this game from early prototyping all the way up to release and live-ops support.
+
+<details>
+<summary>Click to read more...</summary>
+
 </details>
