@@ -23,13 +23,17 @@ Mythwalker was a mobile, geo-location RPG, think Pokemon GO meets a fantasy RPG.
 <details>
 <summary>Click to read more...</summary>
 One of my major focuses on this project was to manage the assets and Unity Addressables integration. I created a code service in our project to control the loading, unloading, and downloading of all assets within the project. This unified and simplified the way the project interacted with this system and allowed for more overall consistency in the project, as well as reducing the number of loading issues. 
-
+<br>
+<br>
 In addition to this, I re-organized the assets in the project and setup the bundle and Addressable groups to follow this organization to allow for better groupings of assets. This helped with the memory optimization work I did later because the connections and dependencies between various assets were both better defined and easier to control, ultimately leading to multiple fixes to memory issues on lower end mobile devices.
-
+<br>
+<br>
 To top it all off on the Addressables front, I worked closely with the art and design teams to create tools for them to interact with this system. The tools enabled the art and design teams to minimize the time spent on adding their new assets into the Addressable system as well as eliminated the majority of all problems the teams faced in the past.
-
+<br>
+<br>
 My efforts on the Addressables system for Mythwalker ultimately led to resolving the majority of issues the project was facing with loading assets and greatly simplified the pipeline for getting new assets into the game and functioning properly.
-
+<br>
+<br>
 Aside from the Addressables and assets work, I also led a team of 3 other engineers, a designer, and an artist to rebuild the game's minigame system. I came up with an updated design for the code system and coordinated with the other engineers on the implementation details. I built out the framework and general flow, while the other engineers synced up with me to hook in improvements to various gameplay elements. I would stay in sync with the designer to ensure the feature was satisfying their requirements for both gameplay feel and for the control over the rewards and difficulty they needed. Throughout the process I acted as the primary point of contact for the production team to communicate with them about progress, blockers, and anything else related to the development.
 </details>
 
@@ -60,12 +64,32 @@ Video Links:
 Cookie Jam and Cookie Jam Blast are both match-3 puzzle games available on iOS and Android mobile devices, with Blast being a pseudo sequel. Both games started as Flash/ActionScript3.0 games with their own code bases, but a large portion of the work I contributed to these projects was when we were porting the games over to Unity and creating our own internal puzzle game engine for both games to share. I built a few large systems to support both games during the porting and provided live-ops support both during and after the porting effort was completed.
 
 <details>
-  <summary>Click to read more...</summary>
+<summary>Click to read more...</summary>
 One of the systems I built was what we internally called a "powers" system which had the purpose of being able to define special board interactions from that could be used in both games and be fired from multiple locations. The intention was for this system to support the basic puzzle board boosters that both games use, but also the pet and airship systems seen in the videos linked above. This ultimately resulted in a system where a designer could build a new power out of a scriptable object with multiple, modular pieces that would define the various aspects of the power such as how it charges, what the cooldown is, what effect it has on the board, and the various visual aspects. These definitions were then parsed when the game starts up to build out the objects in game that would integrate into the puzzle game's list of rules and mechanics. 
-
+<br>
+<br>
 This system fully supported the 3 systems already defined in the flash versions of the game, but also provided an easier way forward to modify and A/B test them, create new interactions within these defined systems, and also build whole new systems for special board interactions. It also allowed for the design team to more easily prototype and test changes without engineering interactions as the base set of scriptable objects provided to them allowed for a large variety of options.
-
+<br>
+<br>
 I also led the development of an updated events system for both games to utilize. The goal here was to combine the standard game event system with the cross-promotional events systems as there was a lot of overlap in functionality and therefore duplicated code. I was able to combine the two systems to share the same underlying structure, but allow for modularity within how various aspects of the event progress are defined. For example, some events had an overall progress that was tracked and displayed as the player interacted with it, while other events would just provide tokens to interact with its mechanic. This option was able to be defined in the data and allowed the code to determine which objects to piece together at runtime when setting up the event.
-
+<br>
+<br>
 This change led to a more unified and simplified codebase for our events systems, resulting in fewer bugs, faster creation of new event types, and an overall easier to understand process.
+</details>
+
+### HGTV MyDesign
+
+#### Description and Contributions
+
+This was a home decor design game where the player would build out spaces in homes and earn currency based on how well they were rated by the community. Early versions of this game internally included a match-3 puzzle game using 3D pieces and animations that was built using the same puzzle engine used for Cookie Jam and Cookie Jam Blast. I was in charge of prototyping and building out the 3D support for our puzzle engine, working closely with multiple tech artists to build out some really bombastic effects.
+
+<details>
+<summary>Click to read more...</summary>
+My efforts on this project were primarily updating our puzzle engine to support the various 3D assets and effects we wanted to utilize for the new game.
+<br>
+<br>
+I created a new set of rules for the engine that would allow for displaying 3D models instead of just sprites as well as making the gameboard itself 3D. I was then able to create additional mechanics and controls for the puzzle game that allowed for the board and pieces to rotate and move around in 3D space, which unlocked what our tech artists needed to create the visual effects needed for the game. Utilizing the powers system I had developed previously for Cookie Jam and Cookie Jam Blast (see the above section for more details on this) and these new 3D controls, we created special effects that had characters in the game move the board around to use their tools and break puzzle pieces in various exciting ways.
+<br>
+<br>
+Another major addition I made was to the level system. In Cookie Jam and Cookie Jam Blast, levels were always displayed to the player on an island with a set number of maps. The player would need to complete a level and move on to the next map, with each map being pre-defined by designers. I created another mode that instead served levels to the player using a data defined factory. This meant that all the player had to do was press a "Play Level" button and the code and data underneath could figure out a new level to serve to the player. This allowed design to dynamically update which levels the player would play at any given time. The player would always start with a set number of tutorial levels to teach the game, but after that this new system would compare player data to rules defined by data to determine where it should get its next level from. There was a set of default levels the game can pull from with the ability to dynamically modify values of the level (e.g. number of moves, objectives, starting boosters, etc.), but if there was an active event with special levels or if a new type of level was released, these levels would take precedence to ensure the player was seeing new content as it was released.
 </details>
