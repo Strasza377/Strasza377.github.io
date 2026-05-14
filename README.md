@@ -14,7 +14,7 @@ I am ideally looking for a small to medium sized game team to join and contribut
 
 <a href="https://www.youtube.com/watch?v=IDrlckQxy0E">Launch Trailer</a>
 
-Unfortunately this game is no longer available on the app stores as the team was laid off and the project was sunset.
+This game was sunset and is no longer available on the Google or Apple App Stores.
 
 #### Description and Contributions
 
@@ -100,11 +100,11 @@ Another major addition I made was to the level system. In Cookie Jam and Cookie 
 
 <a href="https://www.youtube.com/watch?v=XLLF2K6XPu4">Gameplay Walkthrough</a>
 
-This game was unfortunately sunset and is no longer available on the Google or Apple App Stores.
+This game was sunset and is no longer available on the Google or Apple App Stores.
 
 ### Description and Contributions
 
-Disney's Enchanted Tales was a narrative-driven builder game that told the stories of various Disney properties. This was my first time working with Unity and therefore my first released Unity game. I was early into my career during this project and did my best to get a wide variety of experiences with the game development process. I worked on anything from gameplay, UI, and native plugins and worked on this game from early prototyping all the way up to release and live-ops support.
+Disney's Enchanted Tales was a narrative-driven builder game that told the stories of various Disney properties. The game was built for iOS and Android mobile devices using Unity and C# with a Java backend. This was my first time working with Unity and therefore my first released Unity game. I was early into my career during this project and did my best to get a wide variety of experiences with the game development process. I worked on anything from gameplay, UI, and native plugins and worked on this game from early prototyping all the way up to release and live-ops support.
 
 <details>
 <summary>Click to read more...</summary>
@@ -117,5 +117,16 @@ I added character mechanics for them to interact both with other characters and 
 Additionally, since this project existed before a lot of the modern Unity support for features such as in-app purchases and ads, I took point on integrating native plugins for handling these features for the game. This involved writing native app code (Objective-C and Java at the time) to perform the in-app purchases or interact with the ad service plugin and then creating a C# layer to interact with this native code.
 </details>
 
-### Ghost's of Mistwood
+### Disney's Ghosts of Mistwood
 
+#### Links
+
+<a href="https://www.youtube.com/watch?v=Ug7S3F2JB6Q">Facebook Gameplay Video</a>
+
+<a href="https://www.youtube.com/watch?v=pozsqa7eTME">Mobile (Android) Gameplay Video</a>
+
+#### Description and Contributions
+
+Disney's Ghosts of Mistwood was a narrative-driven builder game using an original IP of the studio. This game was built using Flash/ActionScript and a Lua scripting layer to interact with the MetaPlace backend infastructure. This was my first professional game project and I spent most of my time building small game features, fixing bugs, and learning more about the game development process overall. 
+
+After about 6 months of doing this, I moved on to taking point on porting the game over to mobile devices, still using Flash/ActionScript 3.0. Here I worked to adapt the UI and basic gameplay interactions to work on the more limited capabilities and screen space of mobile devices. 
