@@ -34,7 +34,7 @@ I worked closely with the art and design teams to create tools for them to inter
 My efforts on the Addressables system for Mythwalker ultimately led to resolving the majority of issues the project was facing with loading assets and greatly simplified the pipeline for getting new assets into the game and functioning properly.
 <br>
 <br>
-I also led a team of 3 other engineers, a designer, and an artist to rebuild the game's minigame system. I developed an updated design for the code system and coordinated with the other engineers on the implementation details. I built out the framework and general flow, while the other engineers synced up with me to hook in improvements to various gameplay elements. I would remain collaborative with the designer to ensure the feature was satisfying their requirements for both gameplay feel and for the control over the rewards and difficulty they needed. Throughout the process, I acted as the primary point of contact for the production team to communicate with them about progress, blockers, and anything else related to the development.
+I also led a team of 3 other engineers, a designer, and an artist to rebuild the game's minigame system. I developed an updated design for the code system and coordinated with the other engineers on the implementation details. I built out the framework and general flow, while the other engineers synced up with me to hook in improvements to various gameplay elements. I would collaborate with the designer to ensure the feature was satisfying their requirements for both gameplay feel and for the control over the rewards and difficulty they needed. Throughout the process, I acted as the primary point of contact for the production team to communicate with them about progress, blockers, and anything else related to the development.
 </details>
 
 ### Cookie Jam and Cookie Jam Blast
@@ -108,7 +108,7 @@ Disney's Enchanted Tales was a narrative-driven builder game that told the stori
 
 <details>
 <summary>Click to read more...</summary>
-I built out the majority of the game's UI while working collaboratively with a UI artist. We coordinated on the setup of the prefabs to ensure quality player interaction as well as optimization to minimize the number of draw calls needed.
+I built out the majority of the game's UI while collaborating with a UI artist. We coordinated on the setup of the prefabs to ensure quality player interaction as well as optimization to minimize the number of draw calls needed.
 <br>
 <br>
 I added character mechanics for them to interact both with other characters and the various buildings present in the world. This involved updating the C# code in Unity as well as updating the server endpoints in our Java backend.
