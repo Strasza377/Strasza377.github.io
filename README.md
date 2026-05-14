@@ -125,6 +125,8 @@ Additionally, since this project existed before a lot of the modern Unity suppor
 
 <a href="https://www.youtube.com/watch?v=pozsqa7eTME">Mobile (Android) Gameplay Video</a>
 
+This game was sunset and is no longer available on Facebook or the Google or Apple App Stores.
+
 #### Description and Contributions
 
 Disney's Ghosts of Mistwood was a narrative-driven builder game using an original IP of the studio. This game was built using Flash/ActionScript and a Lua scripting layer to interact with the MetaPlace backend infastructure. This was my first professional game project and I spent most of my time building small game features, fixing bugs, and learning more about the game development process overall. 
