@@ -44,7 +44,6 @@ Woodcutting Minigame
 I also led a team of 3 other engineers, a designer, and an artist to rebuild the game's minigame system. I developed an updated design for the code system and coordinated with the other engineers on the implementation details. I built out the framework and general flow, while the other engineers synced up with me to hook in improvements to various gameplay elements. I would collaborate with the designer to ensure the feature was satisfying their requirements for both gameplay feel and for the control over the rewards and difficulty they needed. Throughout the process, I acted as the primary point of contact for the production team to communicate with them about progress, blockers, and anything else related to the development.
 </details>
 <br>
-<br>
 ### Cookie Jam and Cookie Jam Blast
 
 #### Links
@@ -99,7 +98,6 @@ Additionally, I led the development of an updated events system for both games t
 This change led to a more unified and simplified codebase for our events systems, resulting in fewer bugs, faster creation of new event types, and an overall easier to understand process.
 </details>
 <br>
-<br>
 ### HGTV MyDesign
 
 <img src="Images/HGTVLogo.jpg" alt="HGTV MyDesign Logo">
@@ -118,7 +116,6 @@ I created a new set of rules for the engine that would allow for displaying 3D m
 <br>
 Additionally, I made improvements and additions to the level system. In Cookie Jam and Cookie Jam Blast, levels were always displayed to the player on an island with a set number of maps. The player would need to complete a level and move on to the next map, with each map being pre-defined by designers. I created another mode that instead served levels to the player using a data defined factory. This meant that all the player had to do was press a "Play Level" button and the code and data underneath could figure out a new level to serve to the player. This allowed design to dynamically update which levels the player would play at any given time. The player would always start with a set number of tutorial levels to teach the game, but after that this new system would compare player data to rules defined by data to determine where it should get its next level from. There was a set of default levels the game can pull from with the ability to dynamically modify values of the level (e.g. number of moves, objectives, starting boosters, etc.), but if there was an active event with special levels or if a new type of level was released, these levels would take precedence to ensure the player was seeing new content as it was released.
 </details>
-<br>
 <br>
 ### Disney's Enchanted Tales
 
@@ -149,7 +146,6 @@ Belle and Gaston interacting at a building
 <br>
 Additionally, since this project existed before a lot of the modern Unity support for features such as in-app purchases and ads, I took point on integrating native plugins for handling these features for the game. This involved writing native app code (Objective-C and Java at the time) to perform the in-app purchases or interact with the ad service plugin and then creating a C# layer to interact with this native code.
 </details>
-<br>
 <br>
 ### Disney's Ghosts of Mistwood
 
