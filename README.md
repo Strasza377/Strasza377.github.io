@@ -1,3 +1,12 @@
+<head>
+  <style>
+    body {
+      background-color: #000000; 
+      color: #ffffff;            
+    }
+  </style>
+</head>
+
 # Alex Schneider Portfolio
 
 As a game software engineer with over 10 years of experience, primarily in the mobile space with Unity/C#, I've worked on many different aspects of game programming including gameplay, UI, tools, platform, memory management/optimization, and app life-cycle. I have lead small teams of ~3-5 other people to deliver fully fleshed out features in both production and live-ops environments.
