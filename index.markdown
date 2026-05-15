@@ -1,5 +1,4 @@
 ---
----
 # Alex Schneider Portfolio
 
 As a game software engineer with over 10 years of experience, primarily in the mobile space with Unity/C#, I've worked on many different aspects of game programming including gameplay, UI, tools, platform, memory management/optimization, and app life-cycle. I have lead small teams of ~3-5 other people to deliver fully fleshed out features in both production and live-ops environments.
@@ -166,3 +165,5 @@ This game was sunset and is no longer available on Facebook or the Google or App
 Disney's Ghosts of Mistwood was a narrative-driven builder game using an original IP of the studio. This game was built using Flash/ActionScript and a Lua scripting layer to interact with the MetaPlace backend infastructure. In my first professional project, I contributed to building small game features, fixing bugs, and learning more about the game development process overall. 
 
 With a solid foundation, I transitioned to taking point on porting the game over to mobile devices, still using Flash/ActionScript 3.0. I adapted the UI and basic gameplay interactions to work on the more limited capabilities and screen space of mobile devices. 
+
+---
