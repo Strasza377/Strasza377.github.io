@@ -27,7 +27,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Strasza377
 
 # Build settings
-theme: jekyll-theme-leap-day
+theme: jekyll-theme-dinky
 
 # Exclude from processing.
 # The following items will not be processed, by default.
