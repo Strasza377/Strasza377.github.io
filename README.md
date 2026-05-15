@@ -8,6 +8,8 @@ Ideally, I am looking for a small to medium sized game team to join and contribu
 
 ### Mythwalker
 
+'![MythWalker Logo Art](/Images/MythWalkerTitle.jpg)'
+
 #### Links:
 
 <a href="https://www.youtube.com/watch?v=RDkacY7LllQ">Gameplay footage</a>
