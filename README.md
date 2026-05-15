@@ -48,11 +48,15 @@ I also led a team of 3 other engineers, a designer, and an artist to rebuild the
 
 #### Links
 
+<img src="Images/CookieJamTitle.jpg" alt="Cookie Jam Title">
+
 Cookie Jam App Store links: 
 
 <a href="https://play.google.com/store/apps/details?id=air.com.sgn.cookiejam.gp">Google Play Store</a>
 
 <a href="https://apps.apple.com/us/app/cookie-jam-match-3-games/id727296976">Apple App Store</a>
+
+<img src="Images/CookieJamBlastTitle.jpg" alt="Cookie Jam Blast Title">
 
 Cookie Jam Blast App Store links: 
 
@@ -75,7 +79,17 @@ Cookie Jam and Cookie Jam Blast are both match-3 puzzle games available on iOS a
 One of the systems I built was what we internally called a "powers" system which had the purpose of being able to define special board interactions which could be used in both games and be fired from multiple locations. The intention was for this system to support the basic puzzle board boosters that both games use, but also the pet and airship systems seen in the videos linked above. This ultimately resulted in a system where a designer could build a new power out of a scriptable object with multiple, modular pieces that would define the various aspects of the power such as how it charges, what the cooldown is, what effect it has on the board, and the various visual aspects. These definitions were then parsed when the game starts up to build out the objects in game that would integrate into the puzzle game's list of rules and mechanics. 
 <br>
 <br>
+  <img src="Images/CookieJamPets.jpg" alt="Cookie Jam Pets">
+  <br>
+  Cookie Jam Pets
+<br>
+<br>
 This system fully supported the 3 systems already defined in the flash versions of the game, but also provided an easier way forward to modify and A/B test them, create new interactions within these defined systems, and build whole new systems for special board interactions. It also allowed for the design team to more easily prototype and test changes without engineering interactions as the base set of scriptable objects provided to them allowed for a large variety of options.
+<br>
+<br>
+  <img src="Images/CookieJamBlastAirship.jpg" alt="Cookie Jam Blast Airship Power">
+  <br>
+  Cookie Jam Blast Airship Power
 <br>
 <br>
 Additionally, I led the development of an updated events system for both games to utilize. The goal was to combine the standard game event system with the cross-promotional events systems as there was a lot of overlap in functionality and therefore duplicated code. I was able to combine the two systems to share the same underlying structure while allowing for modularity within how various aspects of the event progress are defined. For example, some events had an overall progress that was tracked and displayed as the player interacted with it, while other events would just provide tokens to interact with its mechanic. This option was able to be defined in the data and allowed the code to determine which objects to piece together at runtime when setting up the event.
@@ -85,6 +99,8 @@ This change led to a more unified and simplified codebase for our events systems
 </details>
 
 ### HGTV MyDesign
+
+<img src="Images/HGTVLogo.jpg" alt="HGTV MyDesign Logo">
 
 #### Description and Contributions
 
