@@ -119,6 +119,8 @@ Additionally, I made improvements and additions to the level system. In Cookie J
 
 ### Disney's Enchanted Tales
 
+<img src="Images/EnchantedTalesPromotional.jpg" alt="Disney's Enchanted Tales">
+
 #### Links
 
 <a href="https://www.youtube.com/watch?v=XLLF2K6XPu4">Gameplay Walkthrough</a>
@@ -137,10 +139,17 @@ I built out the majority of the game's UI while collaborating with a UI artist. 
 I added character mechanics for them to interact both with other characters and the various buildings present in the world. This involved updating the C# code in Unity as well as updating the server endpoints in our Java backend.
 <br>
 <br>
+<img src="Images/EnchantedTalesGameplay.jpg" alt="Disney's Enchanted Tales">
+<br>
+Belle and Gaston interacting at a building
+<br>
+<br>
 Additionally, since this project existed before a lot of the modern Unity support for features such as in-app purchases and ads, I took point on integrating native plugins for handling these features for the game. This involved writing native app code (Objective-C and Java at the time) to perform the in-app purchases or interact with the ad service plugin and then creating a C# layer to interact with this native code.
 </details>
 
 ### Disney's Ghosts of Mistwood
+
+<img src="Images/GhostsTitle.jpg" alt="Disney's Ghosts of Mistwood">
 
 #### Links
 
